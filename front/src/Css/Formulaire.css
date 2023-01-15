@@ -1,0 +1,223 @@
+.modal{
+    background: rgba(0, 0, 0, 0.192);
+   backdrop-filter: blur(10px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.madal_content{
+    /* padding: 2em; */
+    box-shadow: rgba(247, 247, 249, 0.244) 0px 4px 10px 0px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background: #373737c6;
+    border-radius: 1em;
+   
+  
+
+}
+.content{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    box-shadow: rgba(247, 247, 249, 0.244) 0px 4px 10px 0px;
+    background: #373737c6;
+    border-radius: 1em
+}
+.div-mere{
+    width: 50%;
+    height: 100%;
+
+    
+}
+
+.close_img{
+    width: 35%;
+    height: 80%;
+   
+}
+.connect_img{
+    width: 50%;
+    height: 90%;
+}
+.close{
+    width: 100%;
+    height: 10%;
+    margin: 1em;
+    
+}
+.imag{
+    width: 90%;
+    height: 70%;
+    margin: 3em;
+ 
+}
+.img_inscri img{
+    width: 100%;
+    height: 100%;
+}
+
+.connect_img img{
+    width: 80%;
+    height: 80%;
+}
+
+.pana{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+ .horaire{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    
+} 
+.horaire h4{
+    color: rgb(253, 243, 41);
+}
+.pana img{
+    width: 90%;
+    height: 60%;
+}
+
+.information{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.connexion{
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FORMULAIRE*/
+.phrase {
+    width: 80%;
+    height: 10%;
+    margin: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.phrase h3{
+    
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 2em;
+}
+.utilisateur{
+    width: 90%;
+    height: 13%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+ label{
+    color: #fff;
+    font-size: 1.3em;
+    margin: 2px;
+}
+.information input, .connexion input, .nom input, .nom select{
+    height: 5vh;
+    border-radius: 9px;
+    border: none;
+    background: #6a6a6aea;
+    font-size: 1.3em;
+    padding: 0.5em;
+    color: white;
+}
+.nom select{
+    height: 4vh;
+    font-size: 1em;
+}
+.utilisateur input{
+    width: 41%;
+}
+.deux_champ{
+    width: 100%;
+    height: 20%;
+    margin: 5px;
+    display: flex;
+
+}
+.deux_champ input{
+    width: 100%;
+}
+.premiere, .deuxieme{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+.motpass, .nom, .passwd{
+    width: 75%;
+    height: 13%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.mere{
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    color: #fff;
+    margin: 1em;
+    
+    
+}
+.lol{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85%;
+   
+}
+input{
+   padding: 0.8em; 
+}
+
+.conf{
+    
+    display: flex;
+    width: 90%;
+    height: 6vh;
+    justify-content: right;
+    margin: 1em;
+
+}
+.b-connecter, .b-enregistrer{
+    display: flex;
+   margin-top: 1em;
+}
+.deja_inscri{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+/* .deja_inscri h3, .deja_inscri h4{
+    margin-right: 1em;   
+} */
+

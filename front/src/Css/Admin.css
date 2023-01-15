@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+}
+.enfant1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.parent{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+      
+}
+.enfant1{
+    width: 10%;
+    height: 8vh;
+    
+}
+.enfant2{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+} 
+.recherche{
+    width: 60%;
+}
+.menu2{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+   
+
+}
+.menu2 div{
+    width: 24%;
+    height: 7vh;
+    background:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    cursor: pointer; 
+    font-weight: bold;  
+     
+}
+.recher{
+    
+    color: white;
+    height: 5vh;
+    font-size: 1em;
+    padding: 4px;
+    border-radius: 0 5px 5px 0;
+}
+.deco{
+    
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    
+}
+.input{
+    height: 5vh;
+    width: 50vh;
+    border-radius: 3px 0 0 3px;
+}
+
+.tabl
+{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2em;
+    /* Les bordures du tableau seront collées (plus joli) */
+}
+.tabl th {
+    height: 9vh;
+}
+.tabl td /* Toutes les cellules des tableaux... */
+{
+   border-bottom: 2px solid #f6f6f6;
+   height: 8vh;
+   text-align: center;
+}
+.cell{
+    width: 12%;
+}
+.park{
+    width: 20%;
+}
+.case{
+    width: 15%;
+}
+.modifier_cat, .confirmation{
+    text-decoration: none;
+    font-weight: 500;
+    background: green;
+    color: white;
+    padding: 0.5em;
+    border-radius: 2em;
+}
+.suppression, .annule{
+    padding: 0.5em;
+    border-radius: 2em;
+    background: red;
+    color: white;
+    
+}

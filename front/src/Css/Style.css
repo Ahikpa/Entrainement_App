@@ -1,0 +1,114 @@
+
+.corps{
+    width: 100%;
+    height: 90vh;
+    background: #373737;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.corps1{
+    width: 40%;
+    height: 75%;
+ 
+}
+.corps2{
+    width: 60%;
+    height: 90%;
+  
+    
+}
+.corps1 img{
+    width: 90%;
+    height: 90%;
+    margin: 2em;
+}
+.corps2 h1{
+    color: white;
+    font-size: 60px;
+}
+.corps2 p{
+    color: white;
+    font-size: 25px;
+    margin: 2em 0;
+}
+.button{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    
+    
+}
+
+.button .btn-inscri, .recher, .deco{
+    color: white;
+    border: #E1E100 solid 2px;
+    box-shadow: 3px 2px 2px #F9C600;
+    border-radius: 20px;
+    background: #373737;
+    padding: 11px;
+    font-size: 20px;
+    padding-inline: 1.5em;
+    margin-right: 2em;
+    cursor: pointer;
+
+}
+.btn-inscri:hover{
+    color: black;
+    background: linear-gradient(45deg,#E1E100, #F9C600);
+    /* box-shadow: 3px 2px 2px #F9C600; */
+    border-radius: 20px;
+    padding: 11px;
+    font-size: 20px;
+    padding-inline: 1.5em;
+    border: none;
+}
+
+ button, .button .btn-connect, .btn-reserver{
+    color: black;
+    background: linear-gradient(45deg,#E1E100, #F9C600);
+    /* box-shadow: 3px 2px 2px #F9C600; */
+    border-radius: 20px;
+    padding: 11px;
+    font-size: 20px;
+    padding-inline: 1.5em;
+    border: none;
+   
+}
+
+
+.b-enregistrer:hover{
+    color: white;
+    border: #E1E100 solid 2px;
+    border-radius: 20px;
+    background: #373737;
+    box-shadow: 3px 2px 2px #F9C600;
+    padding: 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+    padding-inline: 1.5em;
+}
+
+ .btn-reserver:hover{
+    color: white;
+    border: #E1E100 solid 2px;
+    border-radius: 20px;
+    background: #373737;
+    box-shadow: 3px 2px 2px #F9C600;
+    padding: 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+    padding-inline: 1.5em;
+}
+.btn-connect:hover{
+    color: white;
+    border: #E1E100 solid 2px;
+    border-radius: 20px;
+    background: #373737;
+    box-shadow: 3px 2px 2px #F9C600;
+    padding: 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+    padding-inline: 1.5em;
+}

@@ -1,0 +1,72 @@
+
+.contact{
+    width: 100%;
+    height: 90vh;
+    background: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact1, .contact2{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+.info1, .message{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+}
+
+.contact label{
+    color: white;
+    font-size: 1.5em;
+}
+.contact input, .contact select{
+    width: 98%;
+    height: 7vh;
+    border-radius: 11px;
+    margin: 5px;
+    border: none;
+    background: #6A6A6A;
+    font-size: 1.5em;
+}
+.contact textarea{
+    background: #6A6A6A;
+    border-radius: 11px;
+    font-size: 1.5em;
+}
+.contact select {
+    font-size: 1.7em;
+    color: white;
+    
+}
+.envoyer{
+   margin:  8.5em 0;
+    display: flex;
+    width: 90%; 
+    justify-content: right;
+}
+.envoi:hover{
+    color: white;
+    border: #E1E100 solid 2px;
+    border-radius: 20px;
+    background: #373737;
+    padding: 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+    padding-inline: 1.5em;
+    box-shadow: 3px 2px 2px #F9C600;
+}
+
+
+

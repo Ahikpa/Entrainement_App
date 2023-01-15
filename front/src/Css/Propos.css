@@ -1,0 +1,40 @@
+
+.pare{
+    width: 100%;
+    height: 90vh;
+    background: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pare1{
+    width: 40%;
+    height: 80%;
+    
+}
+.parent2{
+    width: 60%;
+    height: 50%;
+    color: white;
+    font-size: 1.8em;
+    
+}
+.titre{
+    width: 70%;
+    height: 20%;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+   
+}
+
+
+
+.parent2 p{
+    margin: 1em;
+    
+    
+}
+.logo img{
+    margin: 0 0.5em;
+}
