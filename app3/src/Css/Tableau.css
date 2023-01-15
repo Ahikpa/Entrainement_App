@@ -1,0 +1,125 @@
+
+.contenu{
+    width: 100%;
+    height: 95vh;
+    background: #373737;
+    display: flex;
+}
+.gauche{
+    width: 70%;
+    height: 90%;
+}
+.droite{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6em 0;
+}
+.texte{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.texte h2{
+    color: white;
+    font-size: 3em;
+}
+.texte p{
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    
+}
+.table{
+    color: white;
+    background: #6A6A6A;
+    width: 98%;
+    margin: 20px;
+    border-radius: 15px;
+}
+.parking, .quartier, .nbdispo, .nbmax{
+    width: 25%;
+    height: 6vh;
+}
+.droite .img {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    background: #e6cd29;
+    
+}
+.droite .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.heure{
+    color: white;
+    height: 20%;
+    width: 90%;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.heure p{
+    margin: 0.5em;
+}
+.bouton{
+    width: 70%;
+    height: 20%;
+    
+}
+
+.bouton .voir, .reso{
+    width: 70%;
+    height: 5vh;
+    color: black;
+    background: linear-gradient(45deg,#E1E100, #F9C600);
+    font-size: 20px;
+    padding: 1em;
+    display: flex;
+    margin: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+button:hover{
+    color: white;
+    border: #E1E100 solid 2px;
+    border-radius: 20px;
+    background: #373737;
+    box-shadow: 3px 2px 2px #F9C600;
+    cursor: pointer;
+ 
+}
+.voir:hover{
+    color: white;
+    border: #E1E100 solid 2px;
+    border-radius: 20px;
+    background: #373737;
+    box-shadow: 3px 2px 2px #F9C600;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.table td/* Toutes les cellules des tableaux... */
+{
+   border-bottom: 5px solid #f6f6f669 ;
+   border-right: 5px solid #f6f6f669;
+   height: 8vh;
+   text-align: center;
+}
+.table th{
+    font-size: 1.1em;
+}
