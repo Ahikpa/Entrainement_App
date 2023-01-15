@@ -32,7 +32,6 @@ def checkParkingSpace(imgPro):
         # cv2.imshow(str(x * y), imgCrop)
         count = cv2.countNonZero(imgCrop)
 
-
         if count < 900:
             color = (0, 255, 0)
             thickness = 5
@@ -41,7 +40,8 @@ def checkParkingSpace(imgPro):
             color = (0, 0, 255)
             thickness = 2
 
-        cv2.rectangle(img, pos, (pos[0] + width, pos[1] + height), color, thickness)
+        cv2.rectangle(img, pos, (pos[0] + width,
+                      pos[1] + height), color, thickness)
         cvzone.putTextRect(img, str(count), (x, y + height - 3), scale=1,
                            thickness=2, offset=0, colorR=color)
     data = {
@@ -51,7 +51,9 @@ def checkParkingSpace(imgPro):
 
     r.publish(redis_channel, json.dumps(data))
     cvzone.putTextRect(img, f'Free: {spaceCounter}/{len(posList)}', (200, 100), scale=3,
-                           thickness=5, offset=20, colorR=(0,200,0))
+                       thickness=5, offset=20, colorR=(0, 200, 0))
+
+
 while True:
 
     if cap.get(cv2.CAP_PROP_POS_FRAMES) == cap.get(cv2.CAP_PROP_FRAME_COUNT):
